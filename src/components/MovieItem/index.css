@@ -1,0 +1,33 @@
+.thumbnail {
+  width: 215px;
+  height: 150px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.popup-container {
+  background-color: #ffffff;
+  width: 750px;
+  height: 460px;
+  border-radius: 15px;
+}
+
+.modal-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.closeButton {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  align-self: flex-end;
+}
+
+.react-icon {
+  color: #231f20;
+  font-size: 20px;
+}
